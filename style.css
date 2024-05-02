@@ -180,3 +180,58 @@ hr{
 .buttons button:hover{
     background-color: #e5e5e5e5;
 }
+
+/* vieos section */
+
+.videos{
+    margin-top: 60px;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 20px;
+    margin-left: 50px;
+}
+
+.videos .video-container{
+
+    margin-left: 15px;
+}
+
+.video img{
+    margin-top: 50px;
+    width: 400px;
+    border-radius: 15px;
+
+}
+
+.videos .profile img{
+    width: 40px;
+    border-radius: 50%;
+    margin-top: -80px;
+}
+
+.videos .video-text{
+    margin-top: 10px;
+}
+
+.videos .prof-container{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.videos .video-text{
+    margin-left: 20px;
+}
+
+.videos .video-text h3{
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+.videos .video-text p{
+    margin-top: 7px;
+    font-size: 14px;
+}
